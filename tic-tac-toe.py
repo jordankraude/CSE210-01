@@ -31,7 +31,7 @@ def display_board(board):
 
 #Decides the player that will make the choice
 def player_turn(current_player):
-    if  current_player == 'O':f
+    if current_player == 'O':
         return 'X'
     elif current_player == 'X': 
         return 'O'
